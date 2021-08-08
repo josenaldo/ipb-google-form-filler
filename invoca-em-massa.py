@@ -18,13 +18,13 @@ def get_data_list():
     form_data = []
 
     for name in namelist:
-        form_data.append({'entry.761092801': name})
+        form_data.append({'entry.1336091824': name})
 
     return form_data
 
 
 
-url = 'https://docs.google.com/forms/d/e/1FAIpQLSeCBLRqtX9haB5hL5UQqaM2cWavicoaMu3WSL6fFVO6t4t7Vw/formResponse'
+url = 'https://docs.google.com/forms/d/e/1FAIpQLSdHR39eJE_MT116F7jBRoaXfuteDtq14FjJxkcMxOW9uh42mQ/formResponse'
 user_agent = {
     'Referer': url,
     'User-Agent': "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.52 Safari/537.36"
